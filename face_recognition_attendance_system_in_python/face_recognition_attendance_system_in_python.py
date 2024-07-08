@@ -84,7 +84,7 @@ while True:
                 lnwriter.writerow([name, current_time])
     
     # Display the video frame with attendance info
-    cv2.imshow("Attendance", frame)
+    cv2.imshow("Attendance System By: Malki Aman", frame)
     
     # Check for 'q' key press to exit the loop
     if cv2.waitKey(1) & 0xFF == ord("q"):
